@@ -1,0 +1,91 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:url(../BG.jpg);
+	height: 100vh;  
+	background-color: #00;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 625px;
+	max-width: 1370px; 
+}
+.lo {
+	  float: left;
+     background-image:url(../FLOGO.png);
+     background-repeat: no-repeat;
+     height: 150px;
+ 	 max-width: 150px; 
+ 	 position: relative;
+    }
+ul {
+	text-align : center;
+	list-style-type: none;
+}
+ul li {
+	display: inline-block;
+}
+ul li a{
+	text-decoration: underline;
+	color: white;
+	padding: 15px 50px;
+	border:  2px solid  transparent;
+	transition: 0.6s ease;
+	font-size: 140%;
+}
+ul li.act a: hover {
+	background-color: white;
+	color: #000;
+}
+.title{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	text-decoration: overline;
+	color: orange;
+	font-weight: 50px;
+	font-size: 250%;
+	font-family: monospace;
+	font-style: italic;
+	text-shadow: 2px 2px;
+}
+ul li.active a{
+	font-size: 140%
+background-color: transparent;
+	color: white;	
+}
+ul li.active a:hover{
+	background-color: white;
+	color: #000;
+}
+
+.main{
+	max-width: 1000px;
+	margin: auto;
+	color: white
+}
+.btn:hover{
+background-color: white;
+	color: #000;
+}
+.btn{
+	border: 1px solid grey;
+	padding: 10px 30px;
+	color: yellow;
+	text-decoration: overline;
+	transition: 0.6s ease;
+}
+.button{
+	position: absolute;
+	top: 78%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}

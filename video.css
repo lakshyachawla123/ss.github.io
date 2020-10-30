@@ -1,0 +1,26 @@
+*
+{
+	margin: 0;
+	padding: 0; 
+}
+body{
+	background: #2e8d86; 
+}
+.container
+{
+	width: 15%;
+	margin: 80px auto;
+}
+.conatiner h1{
+	padding: 60px ;
+	color:  green;
+	font-size: 44px;
+	text-align: center;
+}
+.videoplayer{
+	width: 290px;
+	left:50%;
+	position: relative;
+	top: 100px;
+	transform: translate(-50%,-50%);
+}

@@ -1,0 +1,46 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body
+{
+	position: relative;
+	background: #000;
+}
+.hero
+{
+	width: 100%;
+	top: 50%;
+	position: absolute;
+}
+.hero h1
+{
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+}
+.gallery
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.gallery a
+{
+	flex-basis: 32%;
+	border: 5px solid #e6dede;
+	box-sizing: border-box;
+	border-radius: 3px;
+	position: relative;
+}
+.gallery a img 
+{
+	width: 100%;
+}
+.space
+{
+	margin-bottom: 20px;
+}

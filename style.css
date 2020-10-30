@@ -1,0 +1,86 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	height: 100vh;
+	background-image: url(../BG.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.lo {
+	  float: left;
+     background-image:url(../FLOGO.png);
+     background-repeat: no-repeat;
+     height: 150px;
+ 	 max-width: 150px; 
+ 	 position: relative;
+    }
+.menubar
+{
+	background:rgb(0,100,0);
+	text-align: center;
+}
+.menubar ul 
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menubar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menubar ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.menubar .fa
+{
+	margin-right: 8px;
+}
+.active,.menubar ul li:hover
+{
+	background : #2bab0d;
+	border-radius: 3px;
+}
+.title{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	text-decoration: overline;
+	color: orange;
+	font-weight: 50px;
+	font-size: 250%;
+	font-family: monospace;
+	font-style: italic;
+	text-shadow: 2px 2px;
+}
+.btn:hover{
+background-color: white;
+	color: #000;
+}
+.btn{
+	border: 1px solid grey;
+	padding: 10px 30px;
+	color: yellow;
+	text-decoration: overline;
+	transition: 0.6s ease;
+}
+.button{
+	position: absolute;
+	top: 78%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
